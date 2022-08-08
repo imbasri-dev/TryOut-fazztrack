@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Level 2 - Task 3</title>
+    <!-- link css external -->
+    <link rel="stylesheet" href="task3.css" />
+    <!-- link css bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+    <!-- grid system boostrap serangkaian wadah, baris, dan kolom untuk menata dan menyelaraskan konten. Itu dibangun dengan flexbox dan sepenuhnya responsif. -->
+
+    <!-- penerapannya pada main content , ketika layar pada screen ≥768px maka jumlah grid col 10, jika screen ≥992px jumlah col 12 , karena jumlah max 12 -->
+</head>
+
+<body>
+    <header>
+        <nav class="d-flex justify-content-between">
+            <h1 class="nav_brand_title">Fazztrack</h1>
+            <img class="nav_brand_img" src="./icon.png" alt="icon_Fazztrack" />
+        </nav>
+    </header>
+    <main class="row">
+        <section class="col-md-12">
+            <h2 class="text-center">
+                Fazztrack adalah program pelatihan yang berkomitmen untuk mencetak
+                developer yang<br />profesional dan memberikan kesempatan untuk
+                berkarir di perusahaan ternama.
+            </h2>
+        </section>
+        <div class="batas_line"></div>
+        <div class="program_isa col-md-10 mx-md-5 mx-lg-0 col-lg-12">
+            <p>Di Fazztrack kami percaya ada cara yang lebih baik untuk sukses</p>
+            <ul>
+                <li>Menggunakan skema Income Share Agreement (ISA) sehingga tidak ada biaya pendidikan di depan.
+                </li>
+                <li>Memberikan skill yang dibutuhkan sesuai standar industri.</li>
+                <li>Menyalurkan lulusan Fazztrack ke perusahaan rekanan Fazztrack.
+                </li>
+            </ul>
+        </div>
+        <div class="program_bootcamp col-md-10 mx-md-5 mx-lg-0 col-lg-12">
+            <p>Keunggulan Bootcamp Fazztrack</p>
+            <ol>
+                <li>Kurikulum yang mendukung.</li>
+                <li>Disalurkan kerja.</li>
+                <li>Income sharing agreement.</li>
+            </ol>
+        </div>
+        <button class=" btn_signup" type="submit">Daftar Sekarang</button>
+        <div class="batas_line"></div>
+        <footer>
+            <span class="text-center"><em>Copyright</em> <strong>Fazztrack 2022</strong></span>
+        </footer>
+    </main>
+
+    <!-- link js bootstrap 5 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rancho&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Rancho', cursive;
+    padding: 0 100px;
+
+}
+
+header {
+    margin-top: 50px;
+}
+
+.nav_brand_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.nav_brand_img {
+    width: 50px;
+    height: 50px;
+}
+
+main section h2 {
+    font-family: 'Rancho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 60px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.batas_line {
+    width: 100%;
+    border: 3px solid #FFFFFF;
+}
+
+
+main .program_isa {
+    margin-top: 55px;
+    background: #FFFFFF;
+    border: 5px solid #EF6807;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #2B57A7;
+}
+
+main .program_isa p {
+    margin: 36px 62px 23px 58px;
+}
+
+main .program_isa ul {
+    margin: 0px 83px 42px 78px;
+}
+
+main .program_bootcamp {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #EF6807;
+
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 5px solid #2B57A7;
+    border-radius: 10px;
+}
+
+main .program_bootcamp p {
+    margin: 36px 366px 18px 58px;
+}
+
+main .program_bootcamp ol {
+    margin: 0px 360px 47px 64px;
+}
+
+main .btn_signup {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    height: 60px;
+    background: #EF6807;
+    border-radius: 10px;
+    border: 1px solid #EF6807;
+}
+
+footer {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding: 35px 0;
+}
