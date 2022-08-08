@@ -1,0 +1,50 @@
+h3 {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+p {
+    font-family: Sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 425px) {
+    h1 {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* 2.
+h3 //ini selector tagName {
+    property : value
+    margin-top: 20px;
+    padding-left: 30px;
+} //deklarasi style
+*/
+/* 3.
+css Specificity adalah digunakan untuk menentukan nilai CSS property mana yang akan relevan untuk digunakan/digantikan style ya.
+*/
+/* 4.
+Responsive Website adalah bagian layar web yang menyesuaikan pengguna/user sesuai dengan layar/pixel misal laptop / smartphone atau tablet, maka tampilan disesuaikan agar lebih enak dipandang .
+*/
+/* 5.
+css media queries mengubah stylesheet berdasarkan lebar & tinggi yang kita tentukan agar spesifik.
+*/
+/* 6.
+css Flexbox:Flexbox merupakan konsep pengaturan layout yang mengatur ukuran elemen Child dari suatu Container untuk beradaptasi dengan Parent/Container-nya.
+CSS Grid merupakan CSS yang dapat membagi kolom pada website menjadi beberapa bagian sesuai yang diinginkan,baik secara horizontal maupun vertikal.
+*/
+
+/* 7.Boostrap adalah framework css / utility css agar lebih cepat dalam membuat style pada web/project yang bisa kita gunakan, dan juga bootsrap ini opensource/gratis digunakan
+ */
